@@ -1,0 +1,15 @@
+{
+  "name": "FastAPI dev",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "runServices": ["app"],
+  "settings": {
+    "python.formatting.provider": "black"
+  },
+  "extensions": [
+    "VisualStudioExptTeam.vscodeintellicode",
+    "esbenp.prettier-vscode",
+    "ms-python.python"
+  ]
+}
